@@ -10,7 +10,7 @@
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/teal_700"
+        android:background="@drawable/bg_prf"
         tools:ignore="MissingConstraints">
 
         <ImageView
@@ -79,7 +79,7 @@
         <LinearLayout
             android:layout_width="197dp"
             android:layout_height="match_parent"
-            android:background="@color/gradStart"
+            android:background="@drawable/gradient"
             android:orientation="vertical">
 
             <TextView
@@ -107,7 +107,7 @@
         <LinearLayout
             android:layout_width="227dp"
             android:layout_height="match_parent"
-            android:background="@color/gradEnd"
+            android:background="?android:attr/colorFocusedHighlight"
             android:orientation="vertical">
 
             <TextView
@@ -135,7 +135,7 @@
     <LinearLayout
         android:layout_width="424dp"
         android:layout_height="328dp"
-        android:background="@color/followersBg"
+        android:background="@drawable/bg_main"
         android:orientation="vertical"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         tools:ignore="MissingConstraints"
@@ -148,12 +148,13 @@
             android:orientation="horizontal">
 
             <TextView
+                android:layout_marginStart="25dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
                 android:text="Name:"
-                android:textColor="@color/colorAccent"
+                android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -174,12 +175,13 @@
             android:orientation="horizontal">
 
             <TextView
+                android:layout_marginStart="25dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
                 android:text="Email:"
-                android:textColor="@color/colorAccent"
+                android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -200,12 +202,13 @@
             android:orientation="horizontal">
 
             <TextView
+                android:layout_marginStart="25dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
                 android:text="SĐT:"
-                android:textColor="@color/colorAccent"
+                android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -226,12 +229,13 @@
             android:orientation="horizontal">
 
             <TextView
+                android:layout_marginStart="25dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
                 android:text="Address:"
-                android:textColor="@color/colorAccent"
+                android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
