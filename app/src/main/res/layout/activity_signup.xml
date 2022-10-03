@@ -11,7 +11,7 @@
         android:id="@+id/forgot"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/teal_700">
+        android:background="@drawable/backgr">
 
         <TextView
             android:id="@+id/title"
@@ -109,9 +109,9 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/title"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="298dp"
-            android:background="@drawable/botron_button"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="301dp"
+            android:background="@color/colorAccent"
             android:text="Sing up" />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
